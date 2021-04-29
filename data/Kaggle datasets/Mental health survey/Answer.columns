@@ -1,0 +1,5 @@
+"name","type","length","leftDigits","rightDigits"
+"AnswerText","STRING","3589","3","0"
+"SurveyID","INTEGER","4","4","0"
+"UserID","INTEGER","4","4","0"
+"QuestionID","INTEGER","3","3","0"

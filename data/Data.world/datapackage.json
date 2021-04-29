@@ -1,0 +1,129 @@
+{
+  "accrual_periodicity": "annually",
+  "additional_limitations": "",
+  "citation": "",
+  "contact_email": "opendata@cdph.ca.gov",
+  "data_collection_tool": "http://www.csus.edu/research/phsrp/brfss.html",
+  "data_license": "Terms of Use",
+  "de_identification_method": "",
+  "description": "This is a source dataset for a Let's Get Healthy California indicator at \"https://letsgethealthy.ca.gov/.\" This table displays the proportion of adults who were ever told they had a depressive disorder in California. It contains data for California only. The data are from the California Behavioral Risk Factor Surveillance Survey (BRFSS). The California BRFSS is an annual cross-sectional health-related telephone survey that collects data about California residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services. The BRFSS is conducted by Public Health Survey Research Program of California State University, Sacramento under contract from CDPH. This indicator is based on the question: \"“Has a doctor, nurse or other health professional EVER told you that you have a depressive disorder (including depression, major depression, dysthymia, or minor depression)?” NOTE: Denominator data and weighting was taken from the California Department of Finance, not U.S. Census. Values may therefore differ from what has been published in the national BRFSS data tables by the Centers for Disease Control and Prevention (CDC) or other federal agencies.",
+  "geo_coverage": "California",
+  "geographic_granularity": "statewide",
+  "keywords": [
+    "adults",
+    "behavioral risk factor surveillance survey",
+    "brfss",
+    "depression",
+    "depressive disorder",
+    "lets get healthy california",
+    "lghc",
+    "mental health",
+    "serious psychological distress"
+  ],
+  "limitations": "Limitations",
+  "name": "adult-depression-lghc-indicator-24",
+  "program_web_page": "http://www.csus.edu/research/phsrp/brfss.html",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "This is a source dataset for a Let's Get Healthy California indicator at \"https://letsgethealthy.ca.gov/.\" This table displays the proportion of adults who were ever told they had a depressive disorder in California. It contains data for California only. The data are from the California Behavioral Risk Factor Surveillance Survey (BRFSS). The California BRFSS is an annual cross-sectional health-related telephone survey that collects data about California residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services. The BRFSS is conducted by Sacramento State under contract from CDPH. This indicator is based on the question: \"“Has a doctor, nurse or other health professional EVER told you that you have a depressive disorder (including depression, major depression, dysthymia, or minor depression)?” NOTE: Denominator data and weighting was taken from the California Department of Finance, not U.S. Census. Values may therefore differ from what has been published in the national BRFSS data tables by the Centers for Disease Control and Prevention (CDC) or other federal agencies.",
+      "format": "CSV",
+      "name": "adult-depression-lghc-indicator-24",
+      "path": "adult-depression-lghc-indicator-24.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Year in which responses were given",
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "description": "General demographic category under which responses have been stratified. Age, Education, Race/Ethnicity, Sex, Income, Total Population.",
+            "name": "Strata",
+            "type": "string"
+          },
+          {
+            "description": "Individual strata within a demographic category.",
+            "name": "Strata Name",
+            "type": "string"
+          },
+          {
+            "description": "https://en.wikipedia.org/wiki/Frequency",
+            "name": "Frequency",
+            "type": "number"
+          },
+          {
+            "description": "https://en.wikipedia.org/wiki/Frequency",
+            "name": "Weighted Frequency",
+            "type": "number"
+          },
+          {
+            "description": "Prevalence of adults who were told they had a depressive disorder, given as percent",
+            "name": "Percent",
+            "type": "number"
+          },
+          {
+            "description": "For explanation of Confidence Interval, see http://en.wikipedia.org/wiki/Confidence_interval\r\n",
+            "name": "Lower 95% CL",
+            "type": "number"
+          },
+          {
+            "description": "For explanation of Confidence Interval, see http://en.wikipedia.org/wiki/Confidence_interval\r\n",
+            "name": "Upper 95% CL",
+            "type": "number"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/5a281abf-1730-43b0-b17b-ac6a35db5760/resource/724c6fd8-a645-4e52-b63f-32631a20db5d/download/adult-depression-lghc-indicator-24.csv",
+          "title": "Adult Depression (LGHC Indicator 24)"
+        }
+      ],
+      "title": "Adult Depression (LGHC Indicator 24)"
+    },
+    {
+      "format": "XLS",
+      "name": "adult-depression-lghc-indicator-24-data-dictionary",
+      "path": "adult-depression-lghc-indicator-24-data-dictionary.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "Column Name",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/5a281abf-1730-43b0-b17b-ac6a35db5760/resource/7a1fa61c-0c26-4596-9f9f-03e73b291405/download/adult-depression-lghc-indicator-24-dd.xlsx",
+          "title": "Adult Depression (LGHC Indicator 24) Data Dictionary"
+        }
+      ],
+      "title": "Adult Depression (LGHC Indicator 24) Data Dictionary"
+    },
+    {
+      "description": "Good health is not limited to physical health.[1] Mental health and well-being are also important. Therefore, screening and treatment for depression is an important priority for the Living Well goal. Depression is a common and treatable condition which can have serious health consequences if left untreated.[2] Let’s Get Healthy California seeks to reduce the number of adults and adolescents (teens) who experience a major depressive episode. \r\n\r\n[1] Office of Health Equity. (August 2015). Portrait of Promise: California Statewide Plan to Promote Health Equity and Mental Health Equity. California Department of Public Health., http://www.cdph.ca.gov/programs/Documents/CDPHOHEDisparityReportAug2015.pdf\r\n[2] Peck, C., Logan, J., Malzlish, N., & Van Court, J. (n.d.). The Burden of Chronic Disease. Retrieved November 16, 2015, from www.cdph.ca.gov: http://www.cdph.ca.gov/programs/Documents/BurdenReportOnline%2004-04-13.pdf",
+      "format": "Chart",
+      "name": "number-of-adults-told-they-had-a-depressive-disorder",
+      "path": "https://letsgethealthy.ca.gov/goals/living-well/mental-health-and-well-being-reducing-adult-depression/",
+      "title": "Number of Adults Told They Had a Depressive Disorder"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "Chronic Disease Surveillance and Research Branch (CDSRB), CDPH"
+    }
+  ],
+  "temporal_coverage": "2012-2018",
+  "title": "Adult Depression (LGHC Indicator)"
+}
